@@ -1,262 +1,460 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio-Website</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="wrapper">
+      <div class="container">
+        <div class="nav-bar">
+          <div class="parag">
+            <img class="Plogo" src="images/userAsset/images (1).png" alt="P" />
+            <span class="leftover">arag Mittal</span>
+          </div>
+          <div class="right-nav">
+            <a class="right-nav-parts" href="#project">Projects</a>
+            <a class="right-nav-parts" href="#skill">Skills</a>
+            <a class="right-nav-parts" href="#contact-me">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-section">
+          <div class="hero-section-left">
+            <div class="name">parag Mittal</div>
+            <div class="hi">Hi! Parag Mittal</div>
+            <p class="slider-prev">I am a <span class="role"></span></p>
+            <div class="intro">
+              I'm a software developer and here is my portfolio website. Here
+              you'll learn about my journey as a software developer.
+            </div>
+            <div class="btn-pink" id="btn-top">Hire me</div>
+          </div>
+          <div class="hero-section-right">
+            <div class="absolute icons circle">
+              <img src="images/userAsset/circle.png" alt="" />
+            </div>
+            <div class="absolute icons cube">
+              <img src="images/userAsset/cube.png" alt="" />
+            </div>
+            <div class="absolute icons dots">
+              <img src="images/userAsset/dots.png" alt="" />
+            </div>
+            <div class="absolute icons plus">
+              <img src="images/userAsset/plus.png" alt="" />
+            </div>
+            <div class="absolute icons zigzag">
+              <img src="images/userAsset/zigzags.png" alt="" />
+            </div>
+            <div class="user-image">
+              <img
+                src="images/userAsset/Screenshot (154).png"
+                alt=""
+                width="300px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-container" id="project">
+        <h1 class="main-heading">Projects</h1>
+        <div class="projects">
+          <div class="project-card right-card" id="card-1">
+            <div class="card-no left-side-no">01</div>
+            <div class="project-content lc">
+              <div class="project-skill-cont">
+                <img
+                  class="project-skill"
+                  src="./images/stack/HTML.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/CSS.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Javascript.svg"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Express.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/React.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Tailwind.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/NodeJs.svg"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/MongoDB.svg"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Redux.svg"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Vercel.svg"
+                  alt=""
+                />
+              </div>
+              <div class="project-heading">StudyNotion</div>
+              <div class="pro-sub-h">
+                A comprehensive online learning platform built with MERN stack
+                featuring course creation, video streaming, secure payments via
+                Razorpay, user authentication, and responsive design.
+              </div>
+              <div class="pro-btn">
+                <div class="btn-pink" id="btn-top">Read More</div>
+                <a class="icon" href="https://github.com/parag345/StudyNotion">
+                  <i
+                    title="GitHubLink"
+                    class="fa-brands fa-github icon"
+                    aria-hidden="true"
+                  ></i
+                  ><span class="sr-only">GitHubLink</span>
+                </a>
+                <a
+                  class="icon"
+                  href="https://studynotion-frontend-ecru.vercel.app/"
+                >
+                  <i
+                    title="Live Link"
+                    class="fa-solid fa-link icon"
+                    aria-hidden="true"
+                  ></i
+                  ><span class="sr-only">Live Link</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card left-card" id="card-2">
+            <div class="card-no right-side-no">02</div>
+            <div class="project-content rc">
+              <div class="project-skill-cont">
+                <img
+                  class="project-skill"
+                  src="./images/stack/HTML.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/CSS.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Javascript.svg"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/React.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Tailwind.png"
+                  alt=""
+                />
+              </div>
+              <div class="project-heading">Educards</div>
+              <div class="pro-sub-h">
+                A responsive course discovery platform built with React and
+                styled using Tailwind CSS, enabling users to explore, filter,
+                and like courses effortlessly.
+              </div>
+              <div class="pro-btn">
+                <div class="btn-pink" id="btn-top">Read More</div>
+                <a href="https://github.com/parag345/EduCards">
+                  <i
+                    title="GitHubLink"
+                    class="fa-brands fa-github icon"
+                    aria-hidden="true"
+                  ></i
+                  ><span class="sr-only">GitHubLink</span>
+                </a>
+                <a href="http://edu-cards.onrender.com/">
+                  <i
+                    title="Live Link"
+                    class="fa-solid fa-link icon"
+                    aria-hidden="true"
+                  ></i
+                  ><span class="sr-only">Live Link</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card right-card" id="card-3">
+            <div class="card-no left-side-no">03</div>
+            <div class="project-content lc">
+              <div class="project-skill-cont">
+                <img
+                  class="project-skill"
+                  src="./images/stack/HTML.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/CSS.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Javascript.svg"
+                  alt=""
+                />
+              </div>
+              <div class="project-heading">Random Password Generator</div>
+              <div class="pro-sub-h">
+                A simple web application that generates random passwords for
+                enhanced security.
+              </div>
+              <div class="pro-btn">
+                <div class="btn-pink" id="btn-top">Read More</div>
+                <a href="https://github.com/parag345/Random-password-generator">
+                  <i
+                    title="GitHubLink"
+                    class="fa-brands fa-github icon"
+                    aria-hidden="true"
+                  ></i
+                  ><span class="sr-only">GitHubLink</span>
+                </a>
+                <a href="https://parag345.github.io/Random-password-generator/">
+                  <i
+                    title="Live Link"
+                    class="fa-solid fa-link icon"
+                    aria-hidden="true"
+                  ></i
+                  ><span class="sr-only">Live Link</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-container container" id="skill">
+        <div class="faded-skill">Skills</div>
+        <div class="left-side-skill-text">
+          <div class="skill-text">
+            <h2 class="me">
+              <span class="M">M</span>e and <br />My Tech Stack
+            </h2>
+            <p class="skill-sub">
+              Hi Everyone, my name is Parag Mittal. I am a Full Stack Web
+              Developer Currently, I'm working at SBS Health Services Pvt. Ltd.
+              and also operate as a full-time freelancer. I specialize in
+              building scalable web applications using technologies like
+              React.js, TypeScript, Node.js, and MongoDB. I'm passionate about
+              creating seamless UI/UX and ensuring performance and stability
+              through testing and debugging.
+            </p>
+            <p class="skill-sub">
+              I have built hospital management systems and online learning
+              platforms, integrating backend services, payment systems, and
+              end-to-end Cypress testing. I focus on clean code, user-friendly
+              interfaces, and scalable architecture.
+            </p>
+            <p class="skill-sub">
+              My current tech stack includes JavaScript, TypeScript, React,
+              Node.js, Express.js, MongoDB, Tailwind CSS, Redux, Cypress, and
+              Git. I'm always eager to learn and grow by contributing to
+              impactful projects.
+            </p>
+          </div>
+        </div>
+
+        <div class="right-side-skills">
+          <img
+            src="./images/userAsset/blob vector.png"
+            class="blob-style"
+            alt=""
+          />
+          <img src="./images/stack/ts.png" alt="" class="skills-logo" />
+          <img src="./images/stack/CSS.png" alt="" class="skills-logo" />
+          <img src="./images/stack/Javascript.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/React.png" alt="" class="skills-logo" />
+          <img src="./images/stack/NodeJs.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/Redux.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/Tailwind.png" alt="" class="skills-logo" />
+          <img src="./images/stack/Express.png" alt="" class="skills-logo" />
+          <img src="./images/stack/Git.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/Github.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/MongoDB.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/Vercel.svg" alt="" class="skills-logo" />
+        </div>
+      </div>
+
+      <div class="contact-me-container" id="contact-me">
         <div class="container">
-            <div class="nav-bar">
-                <div class="parag">
-                    <img class="Plogo" src="images/userAsset/images (1).png" alt="P">
-                    <span class="leftover">arag Mittal</span>
-                </div>
-                <div class="right-nav">
-                    <a class="right-nav-parts" href="#project">Projects</a>
-                    <a class="right-nav-parts" href="#skill">Skills</a>
-                    <a class="right-nav-parts"href="#contact-me">Contact Me</a>
-                </div>
+          <div class="contact-content">
+            <h1 class="ct">Contact Me</h1>
+            <div class="contact-sub-heading">
+              Questions, thoughts, or just want to say hello?
             </div>
-            
-            <div class="hero-section">
-                <div class="hero-section-left">
-                    <div class="name">parag Mittal</div>
-                    <div class="hi">Hi! Parag Mittal</div>
-                    <p class="slider-prev">I am a <span class="role"></span></p>
-                    <div class="intro">I'm a software developer and here is my portfolio website. 
-                        Here you'll learn about my journey as a software developer.
-                    </div>
-                    <div class="btn-pink" id="btn-top">Hire me</div>
-                </div>
-                <div class="hero-section-right">
-                    <div class="absolute icons circle">
-                        <img src="images/userAsset/circle.png" alt="">
-                    </div>
-                    <div class="absolute icons cube">
-                        <img src="images/userAsset/cube.png" alt="">
-                    </div>
-                    <div class="absolute icons dots">
-                        <img src="images/userAsset/dots.png" alt="">
-                    </div>
-                    <div class="absolute icons plus">
-                        <img src="images/userAsset/plus.png" alt="">
-                    </div>
-                    <div class="absolute icons zigzag">
-                        <img src="images/userAsset/zigzags.png" alt="">
-                    </div>
-                    <div class="user-image">
-                        <img src="images/userAsset/Screenshot (154).png" alt="" width="300px">
-                    </div>
-                </div>
+            <div class="form">
+              <div class="form-content">
+                <input type="text" class="Name" placeholder="Enter your name" />
+                <input
+                  type="email"
+                  class="Name"
+                  id=""
+                  placeholder="Enter your email address"
+                />
+                <input
+                  type="text"
+                  class="Name"
+                  placeholder="Enter your subject"
+                />
+                <textarea
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Enter your message"
+                ></textarea>
+              </div>
             </div>
+            <button type="submit" class="btn-pink" id="submit-btn">
+              Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
+            </button>
+          </div>
         </div>
+      </div>
 
-        <div class="project-container" id="project">
-            <h1 class="main-heading">Projects</h1>
-            <div class="projects">
-                <div class="project-card right-card" id="card-1">
-                    <div class="card-no left-side-no">01</div>
-                    <div class="project-content lc">
-                        <div class="project-skill-cont">
-                            <img class="project-skill" src="./images/stack/HTML.png" alt="">
-                            <img class="project-skill" src="./images/stack/CSS.png" alt="">
-                            <img class="project-skill" src="./images/stack/Javascript.svg" alt="">
-                            <img class="project-skill" src="./images/stack/Express.png" alt="">
-                            <img class="project-skill" src="./images/stack/React.png" alt="">
-                            <img class="project-skill" src="./images/stack/Tailwind.png" alt="">
-                            <img class="project-skill" src="./images/stack/NodeJs.svg" alt="">
-                            <img class="project-skill" src="./images/stack/MongoDB.svg" alt="">
-                            <img class="project-skill" src="./images/stack/Redux.svg" alt="">
-                            <img class="project-skill" src="./images/stack/Vercel.svg" alt="">
-                        </div>
-                        <div class="project-heading">StudyNotion</div>
-                        <div class="pro-sub-h">
-                            A comprehensive online learning platform built with MERN stack featuring course creation, video streaming, secure payments via Razorpay, user authentication, and responsive design.
-                        </div>
-                        <div class="pro-btn">
-                            <div class="btn-pink" id="btn-top">Read More</div>
-                            <a class="icon" href="https://github.com/parag345/StudyNotion">
-                                <i title="GitHubLink" class="fa-brands fa-github icon" aria-hidden="true"></i><span class="sr-only">GitHubLink</span>
-                            </a>
-                            <a class="icon"  href="https://studynotion-frontend-ecru.vercel.app/">
-                                <i title="Live Link" class="fa-solid fa-link icon" aria-hidden="true"></i><span class="sr-only">Live Link</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card left-card" id="card-2">
-                    <div class="card-no right-side-no">02</div>
-                    <div class="project-content rc">
-                        <div class="project-skill-cont">
-                            <img class="project-skill" src="./images/stack/HTML.png" alt="">
-                            <img class="project-skill" src="./images/stack/CSS.png" alt="">
-                            <img class="project-skill" src="./images/stack/Javascript.svg" alt="">
-                            <img class="project-skill" src="./images/stack/React.png" alt="">
-                            <img class="project-skill" src="./images/stack/Tailwind.png" alt="">
-                        </div>
-                        <div class="project-heading">Educards</div>
-                        <div class="pro-sub-h">
-                            A responsive course discovery platform built with React and styled using Tailwind CSS, enabling users to explore, filter, and like courses effortlessly.
-                        </div>
-                        <div class="pro-btn">
-                            <div class="btn-pink" id="btn-top">Read More</div>
-                            <a href="https://github.com/parag345/EduCards">
-                                <i title="GitHubLink" class="fa-brands fa-github icon" aria-hidden="true"></i><span class="sr-only">GitHubLink</span>
-                            </a>
-                            <a href="http://edu-cards.onrender.com/">
-                                <i title="Live Link" class="fa-solid fa-link icon" aria-hidden="true"></i><span class="sr-only">Live Link</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card right-card" id="card-3">
-                    <div class="card-no left-side-no">03</div>
-                    <div class="project-content lc">
-                        <div class="project-skill-cont">
-                            <img class="project-skill" src="./images/stack/HTML.png" alt="">
-                            <img class="project-skill" src="./images/stack/CSS.png" alt="">
-                            <img class="project-skill" src="./images/stack/Javascript.svg" alt="">
-                        </div>
-                        <div class="project-heading">Random Password Generator</div>
-                        <div class="pro-sub-h">
-                            A simple web application that generates random passwords for enhanced security.
-                        </div>
-                        <div class="pro-btn">
-                            <div class="btn-pink" id="btn-top">Read More</div>
-                            <a href="https://github.com/parag345/Random-password-generator">
-                                <i title="GitHubLink" class="fa-brands fa-github icon" aria-hidden="true"></i><span class="sr-only">GitHubLink</span>
-                            </a>
-                            <a href="https://parag345.github.io/Random-password-generator/">
-                                <i title="Live Link" class="fa-solid fa-link icon" aria-hidden="true"></i><span class="sr-only">Live Link</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="footer">
+        <div class="faded-last">Parag Mittal</div>
+        <div class="footer-wrapper container">
+          <div class="footer-left">
+            <a class="footer-tags" href="#project">Projects</a>
+            <a class="footer-tags" href="#skill">Skills</a>
+            <a class="footer-tags" href="#contact-me">Contact Me</a>
+          </div>
+          <div class="icon-wrapper">
+            <a
+              href="https://www.linkedin.com/in/paragmittal25/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fa-brands fa-linkedin icon"></i>
+            </a>
+            <a
+              href="https://github.com/parag345"
+              target="_blank"
+              aria-label="GitHub"
+            >
+              <i class="fa-brands fa-github icon"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/_parag_mittal/"
+              target="_blank"
+              aria-label="Instagram"
+            >
+              <i class="fa-brands fa-instagram icon"></i>
+            </a>
+            <a
+              href="mailto:mittalparag517@gmail.com"
+              target="_blank"
+              aria-label="Email"
+            >
+              <i class="fa-regular fa-envelope icon"></i>
+            </a>
+            <a
+              href="https://leetcode.com/u/mittalparag517/"
+              target="_blank"
+              aria-label="LeetCode"
+            >
+              <img
+                src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/leetcode.svg"
+                alt="LeetCode"
+                style="
+                  width: 24px;
+                  height: 24px;
+                  margin-left: 10px;
+                  filter: invert(100%);
+                "
+              />
+            </a>
+          </div>
         </div>
-
-        <div class="skill-container container" id="skill">
-            <div class="faded-skill">Skills</div>
-            <div class="left-side-skill-text">
-                <div class="skill-text">
-                    <h2 class="me"><span class="M">M</span>e and <br>My Tech Stack</h2>
-                    <p class="skill-sub">
-                        Hi Everyone, my name is Parag Mittal. I am a Full Stack Web Developer  
-                        Currently, I'm working at SBS Health Services Pvt. Ltd. and also operate as a full-time freelancer.
-                        I specialize in building scalable web applications using technologies like React.js, TypeScript, Node.js, 
-                        and MongoDB. I'm passionate about creating seamless UI/UX and ensuring performance and stability through 
-                        testing and debugging.
-                    </p>
-                    <p class="skill-sub">
-                        I have built hospital management systems and online learning platforms, integrating backend services, 
-                        payment systems, and end-to-end Cypress testing. I focus on clean code, user-friendly interfaces, and 
-                        scalable architecture.
-                    </p>
-                    <p class="skill-sub">
-                        My current tech stack includes JavaScript, TypeScript, React, Node.js, Express.js, MongoDB, Tailwind CSS, 
-                        Redux, Cypress, and Git. I'm always eager to learn and grow by contributing to impactful projects.
-                    </p>
-                </div>
+      </div>
+      <div id="hireModal" class="modal" style="display: none">
+        <div class="modal-content">
+          <span class="close-btn">&times;</span>
+          <h2>Contact Information</h2>
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <span>mittalparag517@gmail.com</span>
+              <button
+                onclick="copyToClipboard('mittalparag517@gmail.com')"
+                class="copy-btn"
+              >
+                Copy
+              </button>
             </div>
-
-            <div class="right-side-skills">
-                <img src="./images/userAsset/blob vector.png" class="blob-style" alt="">
-                <img src="./images/stack/ts.png" alt="" class="skills-logo">
-                <img src="./images/stack/CSS.png" alt="" class="skills-logo">
-                <img src="./images/stack/Javascript.svg" alt="" class="skills-logo">
-                <img src="./images/stack/React.png" alt="" class="skills-logo">
-                <img src="./images/stack/NodeJs.svg" alt="" class="skills-logo">
-                <img src="./images/stack/Redux.svg" alt="" class="skills-logo">
-                <img src="./images/stack/Tailwind.png" alt="" class="skills-logo">
-                <img src="./images/stack/Express.png" alt="" class="skills-logo">
-                <img src="./images/stack/Git.svg" alt="" class="skills-logo">
-                <img src="./images/stack/Github.svg" alt="" class="skills-logo">
-                <img src="./images/stack/MongoDB.svg" alt="" class="skills-logo">
-                <img src="./images/stack/Vercel.svg" alt="" class="skills-logo">
+            <div class="contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <span>+91-9024865220</span>
+              <button
+                onclick="copyToClipboard('+91-9024865220')"
+                class="copy-btn"
+              >
+                Copy
+              </button>
             </div>
+            <div class="contact-item">
+              <i class="fa-brands fa-linkedin"></i>
+              <a
+                href="https://www.linkedin.com/in/paragmittal25/"
+                target="_blank"
+                >LinkedIn Profile</a
+              >
+            </div>
+          </div>
         </div>
-
-        <div class="contact-me-container" id="contact-me">
-            <div class="container">
-                <div class="contact-content">
-                    <h1 class="ct">Contact Me</h1>
-                    <div class="contact-sub-heading">Questions, thoughts, or just want to say hello?</div>
-                    <div class="form">
-                        <div class="form-content">
-                            <input type="text" class="Name" placeholder="Enter your name">
-                            <input type="email" class="Name" id="" placeholder="Enter your email address">
-                            <input type="text" class="Name" placeholder="Enter your subject">
-                            <textarea id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
-                        </div>
-                    </div>
-                    <button type="submit" class="btn-pink" id="submit-btn">
-                        Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        <div class="footer">
-            <div class="faded-last">Parag Mittal</div>
-            <div class="footer-wrapper container">
-                <div class="footer-left">
-                    <a class="footer-tags" href="#project">Projects</a>
-                    <a class="footer-tags" href="#skill">Skills</a>
-                    <a class="footer-tags"href="#contact-me">Contact Me</a>
-                </div>
-                <div class="icon-wrapper">
-                    <i class="fa-brands fa-linkedin icon"></i>
-                    <i class="fa-brands fa-github icon"></i>
-                    <i class="fa-brands fa-twitter icon"></i>
-                    <i class="fa-brands fa-instagram icon"></i>
-                    <i class="fa-regular fa-envelope icon"></i>
-                </div>
-            </div>
-        </div>
-        <div id="hireModal" class="modal" style="display: none;">
-            <div class="modal-content">
-                <span class="close-btn">&times;</span>
-                <h2>Contact Information</h2>
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fa-solid fa-envelope"></i>
-                        <span>mittalparag517@gmail.com</span>
-                        <button onclick="copyToClipboard('mittalparag517@gmail.com')" class="copy-btn">Copy</button>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fa-solid fa-phone"></i>
-                        <span>+91-9024865220</span>
-                        <button onclick="copyToClipboard('+91-9024865220')" class="copy-btn">Copy</button>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fa-brands fa-linkedin"></i>
-                        <a href="https://www.linkedin.com/in/paragmittal25/" target="_blank">LinkedIn Profile</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/58a810656e.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="script.js"></script>
 
     <script>
-        var typeData = new Typed(".role", {
-            strings: [
-                "Full Stack Developer",
-                "Web Developer",
-                "Backend Developer",
-                "Coder",
-            ],
-            loop: true,
-            typeSpeed: 100,
-            backSpeed: 80,
-            backDelay: 1000,
-        });
+      var typeData = new Typed(".role", {
+        strings: [
+          "Full Stack Developer",
+          "Web Developer",
+          "Backend Developer",
+          "Coder",
+        ],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1000,
+      });
     </script>
-</body>
+  </body>
 </html>
